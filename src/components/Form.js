@@ -121,6 +121,7 @@ export default function Form() {
       <label htmlFor='motivation'>
         Why would you like to help?
         <textarea
+          data-cy="textarea"
           name='motivation'
           value={formState.motivation}
           onChange={inputChange}
